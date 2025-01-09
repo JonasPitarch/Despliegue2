@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Conferencias NFL</title>
+  <link rel="stylesheet" type="text/css" href="/home/jonpitsaf/IdeaProjects/JPSProyecteArxius/src/main/resources/CSS/Conferencias.css">
+</head>
+<body>
+<h1>Conferencias NFL</h1>
+<th:block th:if="${afc != null && nfc != null}">
+  <h2>AFC</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Equipo</th>
+      <th>Ciudad</th>
+      <th>Logo</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="equipo : ${afc.teams}">
+      <td th:text="${equipo.team}">--</td>
+      <td th:text="${equipo.city}">--</td>
+      <td>
+        <img th:src="${equipo.img}" alt="Logo del equipo"/>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <h2>NFC</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Equipo</th>
+      <th>Ciudad</th>
+      <th>Imagen</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="equipo : ${nfc.teams}">
+      <td th:text="${equipo.team}">--</td>
+      <td th:text="${equipo.city}">--</td>
+      <td>
+        <img th:src="${equipo.img}" alt="Logo del equipo"/>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</th:block>
+<th:block th:unless="${afc != null && nfc != null}">
+  <p>No hay nada que se pueda mostrar en este momento.</p>
+</th:block>
+</body>
+</html>

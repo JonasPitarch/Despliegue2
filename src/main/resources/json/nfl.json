@@ -1,0 +1,60 @@
+{
+  "AFC": {
+    "teams": [
+      {
+        "team": "Buffalo Bills",
+        "city": "Buffalo",
+        "img": "https://cdn.freebiesupply.com/images/large/2x/buffalo-bills-football-logo.png"
+      },
+      {
+        "team": "Miami Dolphins",
+        "city": "Miami",
+        "img": "https://e7.pngegg.com/pngimages/982/491/png-clipart-miami-dolphins-logo-miami-dolphins-logo-sports-nfl-football.png"
+      },
+      {
+        "team": "New England Patriots",
+        "city": "Foxborough",
+        "img": "https://banner2.cleanpng.com/20180430/ssw/avdi6rs9i.webp"
+      },
+      {
+        "team": "New York Jets",
+        "city": "East Rutherford",
+        "img": "https://logos-world.net/wp-content/uploads/2020/05/New-York-Jets-Logo-2019-Present.png"
+      },
+      {
+        "team": "Baltimore Ravens",
+        "city": "Baltimore",
+        "img": "https://e7.pngegg.com/pngimages/458/141/png-clipart-baltimore-ravens-logo-baltimore-ravens-solo-logo-sports-nfl-football.png"
+      }
+    ]
+  },
+  "NFC": {
+    "teams": [
+      {
+        "team": "Dallas Cowboys",
+        "city": "Dallas",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Dallas_Cowboys.svg/1200px-Dallas_Cowboys.svg.png"
+      },
+      {
+        "team": "New York Giants",
+        "city": "East Rutherford",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/New_York_Giants_logo.svg/1200px-New_York_Giants_logo.svg.png"
+      },
+      {
+        "team": "Philadelphia Eagles",
+        "city": "Philadelphia",
+        "img": "https://e7.pngegg.com/pngimages/341/478/png-clipart-philadelphia-eagles-nfl-new-england-patriots-super-bowl-philadelphia-eagles-logo-vertebrate.png"
+      },
+      {
+        "team": "Washington Commanders",
+        "city": "Landover",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Washington_Commanders_logo.svg/1024px-Washington_Commanders_logo.svg.png"
+      },
+      {
+        "team": "Chicago Bears",
+        "city": "Chicago",
+        "img": "https://i.pinimg.com/736x/89/b2/03/89b2034542640a7163e19b10feae7d8c.jpg"
+      }
+    ]
+  }
+}
